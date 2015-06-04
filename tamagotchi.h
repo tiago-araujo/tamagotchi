@@ -2,10 +2,14 @@
 #define TAMAGOTCHI_H
 
 #include <QMainWindow>
+#include <QGraphicsScene>
+#include <QGraphicsPixmapItem>
 
 namespace Ui {
 class Tamagotchi;
 }
+
+const int MAX_ITEMS = 5;
 
 class Tamagotchi : public QMainWindow
 {
@@ -16,7 +20,6 @@ public:
     ~Tamagotchi();
 
 private slots:
-    void on_pushButton_clicked();
 
     void on_interagirButton_clicked();
 
@@ -28,6 +31,8 @@ private slots:
 
 private:
     Ui::Tamagotchi *ui;
+    QGraphicsScene * cena;
+    QGraphicsPixmapItem m_itens[MAX_ITEMS];
 };
 
 #endif // TAMAGOTCHI_H
