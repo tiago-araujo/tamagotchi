@@ -27,28 +27,28 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="interagirButton">
          <property name="text">
           <string>ação 1</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="cantarButton">
          <property name="text">
           <string>ação 2</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="alimentarButton">
          <property name="text">
           <string>ação 3</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="dormirButton">
          <property name="text">
           <string>ação 4</string>
          </property>
@@ -57,7 +57,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QGraphicsView" name="graphicsView"/>
+      <widget class="QGraphicsView" name="telaTama"/>
      </item>
     </layout>
    </widget>
