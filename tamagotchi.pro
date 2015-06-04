@@ -18,3 +18,6 @@ SOURCES += main.cpp\
 HEADERS  += tamagotchi.h
 
 FORMS    += tamagotchi.ui
+
+RESOURCES += \
+    imagens.qrc

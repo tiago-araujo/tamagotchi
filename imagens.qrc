@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img/btn">
+        <file>interagir.png</file>
+    </qresource>
+</RCC>

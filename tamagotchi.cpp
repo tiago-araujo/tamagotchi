@@ -7,6 +7,11 @@ Tamagotchi::Tamagotchi(QWidget *parent) :
     ui(new Ui::Tamagotchi)
 {
     ui->setupUi(this);
+    ui->pushButton->setStyleSheet(QString::fromUtf8("background-image: url(:/img/btn/interagir.png); background-repeat: none;"));
+    ui->pushButton->setMinimumSize(32,32);
+    ui->pushButton->setMaximumSize(32,32);
+    ui->pushButton->resize(32,32);
+
 }
 
 Tamagotchi::~Tamagotchi()
